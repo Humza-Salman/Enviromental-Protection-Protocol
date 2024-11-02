@@ -1,0 +1,219 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+/* navbar Start */
+
+nav {
+    background-color: rgb(182, 234, 182);
+    width: 100%;
+    top: 0px;
+    position:fixed !important;
+    z-index: 1000;
+}
+
+
+/* Navbar End */
+
+
+
+/* !-- Carousel start --> */
+
+
+.slide-bar-1 {
+    background-color: rgb(77, 203, 77);
+    background-size: cover;
+    height: 100vh !important;
+    width: 100% !important;
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+
+}
+
+.slide-bar-1 img {
+    width: 70% !important;
+    height: 500px !important;
+}
+
+.slide-bar {
+    height: 100vh !important;
+    width: 100% !important;
+    display: flex !important;
+    justify-content: center !important;
+}
+
+#correctborder {
+    border-radius: 0px !important;
+}
+
+
+/* !-- Carousel End --> */
+
+
+
+/* sectoion 1 Start */
+.Section1 { 
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.problem {
+    height: 100%;
+    width: 60%;
+}
+
+.problem h1 {
+    color: green;
+    margin-top: 50px;
+    font-weight: bolder;
+    font-size: 5rem;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#paraimg1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+.parasection1{
+    height: 50vh ;
+    width: 80%;
+    display: flex;
+    align-items: center;
+}
+.parasection1 p{
+    color: black;
+    font-size: 1.5rem;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+.imgsection1 img {
+    height: 300px !important;
+}
+
+
+/* sectoion 1 Media tag  Start*/
+
+/* width 426px Start */
+
+@media  (min-width: 426px) and (max-width: 1024px) {
+    .Section1 {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .problem {
+        flex-direction: column;
+        justify-content: flex-end;
+        align-items: flex-start;
+    }
+
+    #paraimg1 {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 50px;
+    }
+
+    .parasection1 {
+        height: 310px;
+        width: 100%;
+    }
+    .parasection1 p{
+        color: black;
+        font-size: 1.2rem;
+        font-family: 'Times New Roman', Times, serif;
+    
+    }
+
+    .problem h1 {
+        font-size: 4rem;
+        
+    }
+}
+
+/* width 1024 end */
+
+/* width 425px Start */
+
+@media (max-width: 425px) {
+    .Section1 {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .problem {
+        flex-direction: column;
+        justify-content: flex-end;
+        align-items: flex-start;
+    }
+
+    #paraimg1 {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 50px;
+    }
+
+    .parasection1 {
+        height: 380px;
+        width: 100%;
+    }
+    .parasection1 p{
+        color: black;
+        font-size: 1rem;
+        font-family: 'Times New Roman', Times, serif;
+    
+    }
+
+    .problem h1 {
+        font-size: 4rem;
+        
+    }
+}
+/* width 0px End */
+
+
+/* sectoion 1 Media tag  End*/
+
+/* sectoion 1 End */
+
+/* Section 2 Solution Start */
+
+.section2 { 
+    background-color: black;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.solution {
+    height: 100%;
+    width: 60%;
+}
+.solution h1 {
+    color: green;
+    margin-top: 50px;
+    font-weight: bolder;
+    font-size: 5rem;
+    font-family: 'Times New Roman', Times, serif;
+}
+.card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
