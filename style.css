@@ -12,8 +12,8 @@ nav {
     background-color: rgb(182, 234, 182);
     width: 100%;
     top: 0px;
-    position:fixed !important;
-    z-index: 1000;
+    position: sticky  !important;
+    z-index: 10;
 }
 
 
@@ -24,10 +24,8 @@ nav {
 /* !-- Carousel start --> */
 
 
-.slide-bar-1 {
-    background-color: rgb(77, 203, 77);
-    background-size: cover;
-    height: 100vh !important;
+.slide-bar-1{
+    height: 100% !important;
     width: 100% !important;
     display: flex !important;
     justify-content: center !important;
@@ -36,16 +34,11 @@ nav {
 }
 
 .slide-bar-1 img {
-    width: 70% !important;
-    height: 500px !important;
+    width: 100% !important;
+    height: 100% !important;
 }
 
-.slide-bar {
-    height: 100vh !important;
-    width: 100% !important;
-    display: flex !important;
-    justify-content: center !important;
-}
+
 
 #correctborder {
     border-radius: 0px !important;
@@ -57,7 +50,7 @@ nav {
 
 
 /* sectoion 1 Start */
-.Section1 { 
+.Section1 {
     height: 100%;
     width: 100%;
     display: flex;
@@ -82,22 +75,23 @@ nav {
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-wrap: wrap;
     gap: 50px;
 }
 
-.parasection1{
-    height: 50vh ;
+.parasection1 {
+    height: 50vh;
     width: 80%;
     display: flex;
     align-items: center;
 }
-.parasection1 p{
+
+.parasection1 p {
     color: black;
     font-size: 1.5rem;
     font-family: 'Times New Roman', Times, serif;
 
 }
+
 .imgsection1 img {
     height: 300px !important;
 }
@@ -107,7 +101,7 @@ nav {
 
 /* width 426px Start */
 
-@media  (min-width: 426px) and (max-width: 1024px) {
+@media (min-width: 426px) and (max-width: 1024px) {
     .Section1 {
         flex-direction: column;
         justify-content: center;
@@ -131,16 +125,17 @@ nav {
         height: 310px;
         width: 100%;
     }
-    .parasection1 p{
+
+    .parasection1 p {
         color: black;
         font-size: 1.2rem;
         font-family: 'Times New Roman', Times, serif;
-    
+
     }
 
     .problem h1 {
         font-size: 4rem;
-        
+
     }
 }
 
@@ -172,18 +167,20 @@ nav {
         height: 380px;
         width: 100%;
     }
-    .parasection1 p{
+
+    .parasection1 p {
         color: black;
         font-size: 1rem;
         font-family: 'Times New Roman', Times, serif;
-    
+
     }
 
     .problem h1 {
         font-size: 4rem;
-        
+
     }
 }
+
 /* width 0px End */
 
 
@@ -195,7 +192,7 @@ nav {
 
 
 
-.section2 { 
+.section2 {
     /* background-color: black; */
     height: 100%;
     width: 100%;
@@ -203,11 +200,12 @@ nav {
     justify-content: center;
     align-items: center;
 }
+
 .solution {
     height: 100%;
-    width: 60%;
-
+    width: 65%;
 }
+
 .solution h1 {
     color: green;
     margin-top: 50px;
@@ -215,7 +213,8 @@ nav {
     font-size: 5rem;
     font-family: 'Times New Roman', Times, serif;
 }
-.cards{
+
+.cards {
     /* background-color: aqua; */
     height: 500px;
     width: 100%;
@@ -223,27 +222,32 @@ nav {
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-    
+
 }
-.box{
+
+.box {
     background-color: green;
-    height: 250px;
-    width: 200px;
+    height: 16.25rem;
+    width: 12.5rem;
     text-align: center;
     place-content: center;
+    gap: 50px;
 }
-.box img{
-    height: 180px;
+
+.box img {
+    height: 11.25rem;
 }
-.box h4{
+
+.box h4 {
     color: black;
-    font-size: 1.2rem ;
+    font-size: 1.2rem;
 }
-.lightgreen{
+
+.lightgreen {
     background-color: rgb(95, 179, 95);
 }
 
-@media (max-width: 425px){
+@media (max-width: 425px) {
     .solution h1 {
         color: green;
         margin-top: 50px;
@@ -251,7 +255,91 @@ nav {
         font-size: 4rem;
         font-family: 'Times New Roman', Times, serif;
     }
+    .cards{
+        height: 100%;
+        width: 100%;
+    }
+}
+@media (max-width: 1024px) {
+    .cards{
+        height: 100%;
+        width: 100%;
+    }
 }
 
+/* Solutin 2 Start */
 
-/* Section 2 Solution Start */
+
+
+
+/* .Solution2 {
+    background-color: black;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 50px;
+}
+
+.bigimages {
+    background-color: aquamarine;
+    height: 100%;
+    width: 65%;
+}
+
+.solution2images {
+    height: 420px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 7px;
+
+
+}
+
+.solution2images img {
+    height: 400px !important;
+    width: 400px !important;
+    border: 5px solid green;
+}
+
+.ocean {
+    background-color: green;
+    height: 40px;
+    width: 300px;
+    font-size: .8rem;
+    font-weight: bolder;
+    color: white;
+    text-align: center;
+    place-content: center;
+    font-family: 'Times New Roman', Times, serif;
+    position: absolute;
+    margin-top: 4rem;
+    z-index: 1;
+
+}
+
+.Greenhouse {
+    background-color: green;
+    position: absolute;
+    height: 40px;
+    width: 300px;
+    font-size: .8rem;
+    font-weight: bolder;
+    color: white;
+    text-align: center;
+    place-content: center;
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: 20rem;
+    margin-left: 35rem;
+    z-index: 1;
+} */
+
+
+
+/* Section 2 Solution End */
+
+
