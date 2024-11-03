@@ -21,7 +21,7 @@ nav {
 
 
 
-!-- Carousel start -->
+/* !-- Carousel start --> */
 
 
 .slide-bar-1{
@@ -226,7 +226,7 @@ nav {
 }
 
 .box {
-    /* background-color: green; */
+    background-color: green;
     height: 250px;
     width: 200px;
     text-align: center;
@@ -244,7 +244,7 @@ nav {
 }
 
 .lightgreen {
-    /* background-color: rgb(95, 179, 95); */
+    background-color: rgb(95, 179, 95);
 }
 
 @media (max-width: 425px) {
@@ -321,7 +321,7 @@ nav {
     justify-content: center;
     align-items: center;
     font-size: 1rem;
-    color: black;
+    color: green;
 }
 
 @media (max-width: 768px) {
@@ -344,7 +344,7 @@ nav {
 
 
 .section4 {
-    /* background-color: black; */
+    /* background-color: yellow; */
     height: 100%;
     width: 100%;
     display: flex;
@@ -356,6 +356,8 @@ nav {
 .example {
     height: 100%;
     width: 65%;
+    /* background-color: aqua; */
+    
 }
 .example h1 {
     color: green;
@@ -364,3 +366,162 @@ nav {
     font-size: 3rem;
     font-family: 'Times New Roman', Times, serif;
 }
+.example p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+    color: green;
+}
+.expamplediv1{
+    /* background-color: blue; */
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 6px;
+}
+.expamplediv1 img{
+    height: 150px;
+}
+.arrowdiv1{
+    color: green;
+    font-size: 20px;
+}
+.arrowdiv1 img{
+    height: auto;
+    width:50px;
+}
+
+.arrowdiv2{
+    color: green;
+    font-size: 20px;
+}
+.arrowdiv2 img{
+    height: auto;
+    width:80px;
+}
+.expamplediv2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.expamplediv2 img{
+    height: 150px;
+}
+.exampleimage2{
+    margin-top: 80px;
+}
+@media (max-width: 850px) {
+    .section4{
+        display: none;
+    }
+    
+}
+.custumsettings1{
+    background-color: #dcdcdc;
+    height: 350px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 2rem;
+    color: green;
+    text-align: center;
+    place-content: center;
+}
+
+.custumsettings2{
+    background-color: #00AE47;
+    height: 350px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 2rem;
+    color: white;
+    text-align: center;
+    place-content: center;  
+}
+
+.custumimage{
+    height: 100px;
+}
+
+
+/* <!-- section 4 Example End --> */
+
+
+/* <!-- section5 Start --> */
+
+
+.section5 {
+    /* background-color: yellow; */
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.profit {
+    height: 100%;
+    width: 65%;
+    /* background-color: aqua; */
+    
+}
+.profit h1 {
+    color: green;
+    margin-top: 30px;
+    font-weight: bolder;
+    font-size: 3rem;
+    font-family: 'Times New Roman', Times, serif;
+}
+.Profitboxes {
+    /* background-color: aqua; */
+    height: 500px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+
+}
+
+.profitbox {
+    background-color: rgb(33, 131, 33);
+    height: 300px;
+    width: 250px;
+    text-align: center;
+    place-content: center;
+    gap: 30px;
+    color: whitesmoke;
+}
+.lightgreen{
+    background-color: rgb(95, 179, 95);
+}
+
+.profitbox img {
+    height: 11.25rem;
+}
+
+@media (max-width: 768px) {
+    .Profitboxes {
+        height: 100%;
+        width: 100%;
+    }
+}
+@media (max-width: 1024px) {
+    .Profitboxes {
+        height: 100%;
+        width: 100%;
+    }
+}
+
+
+
+/* <!-- section5 End --> */
+
+
+/* Footer Start */
+#footercustum{
+    margin-top: 20px;
+}
+        
